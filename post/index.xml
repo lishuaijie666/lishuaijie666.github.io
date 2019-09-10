@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://lishuaijie666.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Sep 2019 11:15:58 +0800</lastBuildDate>
+    
+	<atom:link href="http://lishuaijie666.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>brew和pip的区别</title>
+      <link>http://lishuaijie666.github.io/post/blog/</link>
+      <pubDate>Tue, 10 Sep 2019 11:15:58 +0800</pubDate>
+      
+      <guid>http://lishuaijie666.github.io/post/blog/</guid>
+      <description>brew和pip的区别
+1，brew是用来安装mac系统中使用的程序，默认都是安装到brew的指定目录“/usr/local/Cellar”下，然后在“/usr/local/bin”下创建对应的软连接来使用的。如果安装多个不同版本的库，可以修改对应的软连接就可以了。
+2，默认都是安装到brew的指定目录“/usr/local/Cellar”下，然后在“/usr/local/bin”下创建对应的软连接来使用的。如果安装多个不同版本的库，可以修改对应的软连接就可以了。
+3，pip和pip3安装的程序是分开的，pip是安装到python2版本对应的目录里，pip3是安装到python3版本对应的目录中。如果希望一个第三方库/程序可以同时在python2和python3中使用，则需要分别用pip和pip3各安装一次。</description>
+    </item>
+    
+  </channel>
+</rss>
